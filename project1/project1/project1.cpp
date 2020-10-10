@@ -12,11 +12,12 @@ int main(){
 	cin >> a >> b;
 	cout << a << "	" << b << endl;
 
-	return 0;
-	*/
+	return 0;*/
+	
+	
 
 //PART2  
-	/*
+/*
 	int number;
 
 	cout << "Introduce number:" << endl;
@@ -28,7 +29,7 @@ int main(){
 	else {
 		cout << "Number is odd" << endl;
 	}
-	*/
+*/
 
 //PART3
 
@@ -46,11 +47,12 @@ int main(){
 	x = (c - b) / a;
 
 		cout << "X equals to" << x << endl;
-		*/
+*/
 
 //PART4
 
 	//for loop
+/*
 	cout << "Enter how many times u want to repeat word example" << endl;
 	int times;
 	cin >> times;
@@ -58,5 +60,27 @@ int main(){
 	for (int i = 0; i < times; i++) {
 		cout << "Example" << endl;
 	}
+*/
+
+	int total_money;
+	cout << "Introduce amount of money" << endl;
+	cin >> total_money;
+
+	int banknotes=0;
+
+	while (total_money >= 50) {
+		total_money = total_money - 50;
+		banknotes++;
+	}
+	cout << banknotes << endl;
+
+	//using for as while 
+	cin >> total_money;
+	for (banknotes = 0; total_money >= 50; banknotes++) {
+		total_money = total_money - 50;
+	}
+	cout << banknotes << endl;
+
+	return 0;
 }
 

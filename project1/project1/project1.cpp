@@ -36,6 +36,7 @@ int main(){
 	//ax=c-b
 	//x=(c-b)/a
 
+/*
 	float a, b, c;
 	cout << "Please input a, b and c accoriding to:" << endl << "Ax+B=C" << endl;
 	cin >> a >> b >> c;
@@ -45,5 +46,17 @@ int main(){
 	x = (c - b) / a;
 
 		cout << "X equals to" << x << endl;
+		*/
+
+//PART4
+
+	//for loop
+	cout << "Enter how many times u want to repeat word example" << endl;
+	int times;
+	cin >> times;
+
+	for (int i = 0; i < times; i++) {
+		cout << "Example" << endl;
+	}
 }
 

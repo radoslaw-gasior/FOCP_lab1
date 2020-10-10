@@ -16,7 +16,7 @@ int main(){
 	*/
 
 //PART2  
-
+	/*
 	int number;
 
 	cout << "Introduce number:" << endl;
@@ -28,5 +28,22 @@ int main(){
 	else {
 		cout << "Number is odd" << endl;
 	}
+	*/
+
+//PART3
+
+	// ax+b=c
+	//ax=c-b
+	//x=(c-b)/a
+
+	float a, b, c;
+	cout << "Please input a, b and c accoriding to:" << endl << "Ax+B=C" << endl;
+	cin >> a >> b >> c;
+
+	float x;
+
+	x = (c - b) / a;
+
+		cout << "X equals to" << x << endl;
 }
 

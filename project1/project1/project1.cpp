@@ -1,4 +1,5 @@
 ﻿#include <iostream>
+#include <array>
 using namespace std;
 
 int main(){
@@ -61,7 +62,7 @@ int main(){
 		cout << "Example" << endl;
 	}
 */
-
+	/*
 	int total_money;
 	cout << "Introduce amount of money" << endl;
 	cin >> total_money;
@@ -82,5 +83,49 @@ int main(){
 	cout << banknotes << endl;
 
 	return 0;
+	*/
+
+
+//ARRAYS
+	array<int, 5>data //{ 0,1,2,3,4 };
+	//[0][1][2][3][4]
+	/*or
+	* data[0]=0
+	* etc
+	* */;
+	/*
+		for (int i = 0; i < 5; i++) {
+			data[i] = i;
+		}
+
+		for (int i = 0; i < 5; i++) {
+			cout << data[i] << endl;
+		}
+		*/
+
+		//searching for minimal value
+
+		array<int, 20>random;
+
+		for (int i = 0; i < 20; i++) {
+			random[i] = rand() % 100;
+		}
+
+		for (int i = 0; i < 20; i++) {
+			cout << random[i] << endl;
+		}
+
+		int min = 1;
+
+		for (int i = 0; i < 20; i++) {
+			if (random[i] < min) {
+				random[i] = min;
+			}
+		}
+
+		cout << "minimal value is:" << min << endl;
+
+		return 0;
+
 }
 

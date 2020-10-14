@@ -1,0 +1,2 @@
+C:\FOCP_lab1\Homework\Debug\Homework.exe
+C:\FOCP_lab1\Homework\Debug\Homework.pdb
